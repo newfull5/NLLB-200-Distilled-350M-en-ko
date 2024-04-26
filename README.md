@@ -1,18 +1,3 @@
-# NLLB-200-distilled-350M-en-ko
----
-library_name: transformers
-license: cc-by-nc-4.0
-datasets:
-- allenai/nllb
-- facebook/flores
-language:
-- ko
-- en
-metrics:
-- chrf
-pipeline_tag: translation
----
-
 # NLLB-200 Distilled-350M_en2ko
 
 The NLLB-200 model showed outstanding performance in translation task and contributed to solving problems with low-resource languages.

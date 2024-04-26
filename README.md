@@ -21,6 +21,11 @@ So I made much smaller model that expertized translaing English to Korean. you c
 ## Data
 
 - Training Data: [NLLB dataset](https://huggingface.co/datasets/allenai/nllb)
+  - created based on [metadata](https://github.com/facebookresearch/fairseq/tree/nllb) for mined bitext released by Meta AI
+  - 15M eng_Latn - kor_Hang parallel dataset
+  - [stopes mining library](https://github.com/facebookresearch/stopes)
+  - encoded with [LASER3](https://github.com/facebookresearch/LASER)
+ 
 - Evaluation Data: [Flores-200 dataset](https://huggingface.co/datasets/facebook/flores)
 
 ## Metric

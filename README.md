@@ -2,7 +2,7 @@
 
 The NLLB-200 model showed outstanding performance in translation task and contributed to solving problems with low-resource languages.
 Despite their efforts, it is still hard to run 600M or more than 1B model for those who have not enough computing environment.
-So I made much smaller model that expertized translaing English to Korean. you can also run it with cpu (No mixed-precision, No Quantization). 
+So I made much smaller model that expertized translaing English to Korean. you can also run it with cpu (No mixed-precision, No Quantization). [[우당탕탕 개발일지]](https://devjounal.tistory.com/157)
 
 
 

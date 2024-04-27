@@ -16,8 +16,6 @@ So I made much smaller model that expertized translaing English to Korean. you c
   - Embed dimension: 1024 (same)
   - Vocab size: 256206 (same)
 
-- Licnese: CC-BY-NC
-
 ## Data
 
 - Training Data: [NLLB dataset](https://huggingface.co/datasets/allenai/nllb)
@@ -55,7 +53,8 @@ inputs = tokenizer('[YOUR_INPUT]', return_tensors="pt")
 output = model.generate(**inputs)
 print(tokenizer.decode(output[0]))
 ```
-
+## License
+- CC-BY-NC 4.0
 ## Citation
 ```bibtex
 @misc{,
